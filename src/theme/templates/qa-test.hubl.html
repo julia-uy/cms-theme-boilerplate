@@ -3,7 +3,7 @@
   isAvailableForNewContent: false
   label: QA test
 -->
-{% extends "./layouts/base.html" %}
+{% extends "./layouts/base.hubl.html" %}
 
 {% block body %}
 {% dnd_area "dnd_area"
@@ -522,7 +522,7 @@
     {% end_dnd_column %}
   {% end_dnd_section %}
 
-  {% include_dnd_partial path="../sections/call-to-action.html" %}
+  {% include_dnd_partial path="../sections/call-to-action.hubl.html" %}
 
   {# Cards #}
 
@@ -546,7 +546,7 @@
     {% end_dnd_column %}
   {% end_dnd_section %}
 
-  {% include_dnd_partial path="../sections/cards.html" %}
+  {% include_dnd_partial path="../sections/cards.hubl.html" %}
 
   {# Hero banner #}
 
@@ -570,7 +570,7 @@
     {% end_dnd_column %}
   {% end_dnd_section %}
 
-  {% include_dnd_partial path="../sections/hero-banner.html" %}
+  {% include_dnd_partial path="../sections/hero-banner.hubl.html" %}
 
   {# Multi-column content #}
 
@@ -594,7 +594,7 @@
     {% end_dnd_column %}
   {% end_dnd_section %}
 
-  {% include_dnd_partial path="../sections/multi-column-content.html" %}
+  {% include_dnd_partial path="../sections/multi-column-content.hubl.html" %}
 
   {# Multi-row content #}
 
@@ -618,7 +618,7 @@
     {% end_dnd_column %}
   {% end_dnd_section %}
 
-  {% include_dnd_partial path="../sections/multi-row-content.html" %}
+  {% include_dnd_partial path="../sections/multi-row-content.hubl.html" %}
 
   {# Pricing #}
 
@@ -642,7 +642,7 @@
     {% end_dnd_column %}
   {% end_dnd_section %}
 
-  {% include_dnd_partial path="../sections/pricing.html" %}
+  {% include_dnd_partial path="../sections/pricing.hubl.html" %}
 
 {% end_dnd_area %}
 {% endblock body %}
