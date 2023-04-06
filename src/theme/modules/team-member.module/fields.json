@@ -1,0 +1,35 @@
+[
+  {
+    "name": "team_member_photo",
+    "label": "Team Member Photo",
+    "required": true,
+    "responsive": true,
+    "resizable": true,
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": ""
+    }
+  },
+  {
+    "name": "team_member_name",
+    "label": "Team member name",
+    "required": true,
+    "type": "text",
+    "default": "Joshua Beck"
+  },
+  {
+    "name": "team_member_position",
+    "label": "Team member position",
+    "required": true,
+    "type": "text",
+    "default": "CEO, Co-Founder"
+  },
+  {
+    "name": "team_member_bio",
+    "label": "Team member bio",
+    "required": true,
+    "type": "richtext",
+    "default": "<p>Joshua has over 20 years of experience in the tech industry. He helped start this company in 2015 with the mission of helping people grow. In his spare time he loves hanging out with his kids, going to the beach, and cooking.</p>"
+  }
+]
